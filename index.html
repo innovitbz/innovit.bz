@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop, PC, and Phone Repair</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Laptop, PC, and Phone Repair</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Our Repair Services</h2>
+            <p>We offer professional repair services for laptops, PCs, and phones. Our experienced technicians ensure quick and reliable repairs at affordable prices.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <i class="fas fa-laptop fa-3x"></i>
+                <h3>Laptop Repair</h3>
+                <p>We fix all kinds of laptop issues including hardware and software problems.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-desktop fa-3x"></i>
+                <h3>PC Repair</h3>
+                <p>Our expert technicians can diagnose and repair any desktop computer problem.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-mobile-alt fa-3x"></i>
+                <h3>Phone Repair</h3>
+                <p>We provide fast and reliable repairs for all major phone brands.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of highly skilled technicians with years of experience in laptop, PC, and phone repairs.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question or need assistance? Reach out to us!</p>
+            <form action="contact_process.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+                <button type="submit" name="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Laptop, PC, and Phone Repair</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
